@@ -1,0 +1,153 @@
+header{
+    background-color:#CCCCCC;
+    padding: 35px;
+}
+
+.caja{
+    width: 940px;
+    position:relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 60px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color:#000000;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+nav a:hover{
+    color:green;
+    text-decoration: underline;
+}
+
+.productos {
+    width: 940px;
+    margin: 0 auto; 
+    padding: 50px;
+}
+
+.productos li{
+    display:inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-width: 3px;
+    border-style: groove;
+    border-color: #000000;
+    border-radius: 10px 30px 50px 90px;
+}
+
+.productos li:hover{
+    border-color:rgb(248, 225, 19);
+   
+}
+.productos li:active{
+    border-color:blue;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;  
+}
+
+.productos li:hover h2{
+    font-size: 40px;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    background: url(Imagenes/bg.jpg);
+    padding: 40px;
+}
+.copyright{
+    color:aliceblue;
+    font-size: 14px;
+    margin: 20px;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: orangered;
+    border-color:none;
+    border-radius: 10px;
+    transition: 2s; background; 
+    cursor: pointer;
+    
+}
+.enviar:hover{
+    background: rgb(129, 183, 228);
+    transform: scale(1.2) //rotate(5deg);//
+    transition: 2s; background; 
+}
+
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+
+}   
+td, th{
+    border: 1px solid black;
+    padding: 10px 16px;
+   
+}
